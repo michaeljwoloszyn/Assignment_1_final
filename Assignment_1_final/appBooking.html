@@ -2,10 +2,48 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Vaccine Booking</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./server.js"></script>
 </head>
 <body>
-
+    <header>
+        <h2>Vaccination Booking</h2>
+        <h2>Assignment #1 / Michael / 991571925</h2>
+    </header>
+    <form>
+        <p>
+            <label for="cd" class="group_label">Current Date</label>
+            <input id="cd" type="text" required />
+        </p>
+        <p>
+            <label for="ad" class="group_label">Appointment Date</label>
+            <input id="ad" type="text" required />
+        </p>
+        <p>
+            <label for="t" class="group_label">Time</label>
+            <input id="t" type="text" required />
+        </p>
+        <p>
+            <label for="o" class="group_label">OHIP#</label>
+            <input id="o" type="number" required />
+        </p>
+        <p>
+            <label for="e" class="group_label">Email address</label>
+            <input id="e" type="text" required />
+        </p>
+        <p>
+            <label for="p" class="group_label">Phone number</label>
+            <input id="p" type="number" required />
+        </p>
+        <p>
+            <input type="reset" value="Clear" />
+            <input type="submit" value="Send" onclick="setForm()" />
+        </p>
+    </form>
+    <a href="main.html">Back</a>
+    <footer>woloszym / Davis Campus / 2021-09-29</footer>
 </body>
 </html>
