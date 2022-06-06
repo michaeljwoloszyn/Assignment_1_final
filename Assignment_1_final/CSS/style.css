@@ -1,0 +1,35 @@
+body {
+    background-image: url('../images/vacback.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 25px;
+    color: red;
+    font-style: italic;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+
+#content {
+    background-color: orange;
+}
+
+#appTable {
+    background-color: yellow;
+}

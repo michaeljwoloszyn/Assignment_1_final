@@ -31,20 +31,27 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="appBooking.html">
+    <Content Include="images\vacback.jpg" />
+    <Content Include="pages\appBooking.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="main.html">
+    <Content Include="pages\main.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="server.js">
+    <Content Include="js\server.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="style.css">
+    <Content Include="CSS\style.css">
       <SubType>Code</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="CSS\" />
+    <Folder Include="js\" />
+    <Folder Include="pages\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>
